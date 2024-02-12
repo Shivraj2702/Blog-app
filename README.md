@@ -8,6 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 - Features
+
 User Authentication: Secure user authentication system.
 Create Blog Posts: Users can create new blog posts with a title, content, and optional image.
 Edit and Delete Posts: Users can edit and delete their own posts.
