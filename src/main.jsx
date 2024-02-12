@@ -31,7 +31,7 @@ const router = createBrowserRouter([
             element: (
                 <AuthLayout authentication={false}>
                     <Login />
-                </AuthLayout>
+                // </AuthLayout>
             ),
         },
         {
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
             element: (
                 <AuthLayout authentication={false}>
                     <Signup />
-                </AuthLayout>
+                // </AuthLayout>
             ),
         },
         {
