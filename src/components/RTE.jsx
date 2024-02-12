@@ -12,12 +12,15 @@ export default function RTE({name, control, label, defaultValue =""}) {
     control={control}
     render={({field: {onChange}}) => (
     <Editor
+      
       apiKey='htikybx3c83n6555xr2r1xyn0oyimp2ojy73e5odrw79c2hi'
+      initialValue={defaultValue}
       init={{
+        initialValue: defaultValue,
         plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker',
         toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
       }}
-      initialValue="Welcome to TinyMCE!"
+      
       onEditorChange={onChange}
     />
     )}
