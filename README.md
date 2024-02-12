@@ -10,6 +10,9 @@ Currently, two official plugins are available:
 - Features
 
 User Authentication: Secure user authentication system.
+
 Create Blog Posts: Users can create new blog posts with a title, content, and optional image.
+
 Edit and Delete Posts: Users can edit and delete their own posts.
+
 Responsive Design: The application is designed to work well on various screen sizes.
